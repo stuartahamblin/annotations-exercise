@@ -28,7 +28,6 @@ public class Author extends Person {
         books.add(book);
     }
 
-    @Override
     public String sortName() {                                                          //gives an error if @Override
         return String.format("%s, %s", lastName, firstName);
     }
